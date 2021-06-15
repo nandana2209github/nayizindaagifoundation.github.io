@@ -439,7 +439,7 @@ body{
     max-width:530px;
     margin:auto auto 16px;
 }
-.project-item .text{
+.project-item .text1{
     display:flex;
     height: 100%;
     width:100%;
@@ -449,15 +449,15 @@ body{
     bottom:0;
     z-index:1;
 }
-.project-item .text .des{
+.project-item .text1 .des{
     color:#fff;
     margin: auto 32px 32px;
 }
-.project-item .text .des h2{
+.project-item .text1 .des h2{
     font-size:14px;
     text-transform: uppercase;
 }
-.project-item .text .des p{
+.project-item .text1 .des p{
     font-weight: light;
     font-size:20px;
 }
@@ -466,11 +466,11 @@ body{
         max-width: none;
         margin:0;
     }
-    .project-item .text{
+    .project-item .text1{
         transition: clip-path 0.25s ease-out, background-color 0.7s;
         clip-path:inset(0px);
     }
-    .project-item .text .des{
+    .project-item .text1 .des{
         transition:opacity 0.25s;
         margin-left:80px;
         margin-right: 80px;
