@@ -38,7 +38,7 @@ body{
     top:0;
     width:130%;
     height:95%;
-    background:url("./Images/ngo3aa.jpg")center top no-repeat;
+    background:url("Images/ngo3aa.jpg")center top no-repeat;
     /* background:linear-gradient(to right,rgba(110,155,39,0.6),rgba(20,54,1,0.4)),url("./Images/ngo3.jpg")center top no-repeat; */
     /*image-size 1920H 1080W*/
     z-index:0;
