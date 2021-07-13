@@ -2,9 +2,11 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(17, 19, 17); */
 }
 .nav-bg{
     background: #053001;
@@ -21,6 +23,10 @@ body{
 	/* color: #ffffff; */
 	font-family: 'Engagement',lobster;
 	font-size: 25px;
+}
+.bg{
+    background-color: rgb(250, 237, 221);
+    height: 95vh;
 }
 
 
@@ -39,7 +45,7 @@ body{
     width:130%;
     height:95%;
     background:url("./images/ngo3.jpg")center top no-repeat;
-    /* background:linear-gradient(to right,rgba(110,155,39,0.6),rgba(20,54,1,0.4)),url("./images/ngo3.jpg")center top no-repeat; */
+    /* background:linear-gradient(to right,rgba(110,155,39,0.6),rgba(20,54,1,0.4)),url("./Images/ngo3.jpg")center top no-repeat; */
     /*image-size 1920H 1080W*/
     z-index:0;
     border-radius: 0 0 50% 50%;
@@ -160,6 +166,9 @@ body{
 }
 /*--End of Hero---*/
 /*--login form--*/
+.text2{
+    font-family: Roboto Condensed;
+}
 /* history */
  
 .class{
@@ -272,6 +281,7 @@ body{
 }
 /*========End of the Stories========*/
 /* finished projects */
+#more {display: none;}
 .img-wrap{
     width:80%;
     margin-top: 30px;
@@ -285,13 +295,13 @@ body{
     border: 20px;
 }
 .text{
-    color: #000000;
-/*     border: #3cc78f; */
-/*     border-style: solid;
+    color: #181a19;
+    border: #fff;
+    border-style: solid;
     border-width: 5px;
-    
+    font-style:italic;
     border-radius: 20px;
-    border-spacing: 5px; */
+    border-spacing: 5px;
 }
 
 /*============Projects Section=======*/
@@ -483,7 +493,7 @@ body{
     .project-item:hover img{
         clip-path:inset(32px);
     }
-    .project-item:hover .text{
+    .project-item:hover .text1{
         background-color: rgba(25,61,1,0.6);
     }
 }
@@ -713,4 +723,11 @@ section.about p{
 .footer .footer-top .footer-newsletter form input[type="submit"]:hover{
     background: rgb(112, 2, 2);
     color:#ffffff;
+}
+.footer .copyright p{
+    /* font-size: 1.3rem; */
+    /* text-shadow: 1px 1px black; */
+    border-top: 1px solid #053001;
+    border-bottom: 1px solid #053001;
+
 }
