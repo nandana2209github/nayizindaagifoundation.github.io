@@ -1,0 +1,18 @@
+/* .bg-green{
+    /* background-color: #053001; */
+/* }  */
+.dropdown-menu{
+    background-color: #053001;
+
+
+}
+.dropdown-menu .dropdown-item{
+    color:#FFA900;
+    
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color:#FFA900 ;
+    color:#053001 ;
+    font-weight: bold;
+}

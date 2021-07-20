@@ -6,13 +6,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--     <link rel="icon" href="C:\xampp\htdocs\Brajnand's\images\logo.jpg"> -->
+    <link rel="icon" href="C:\xampp\htdocs\Brajnand's\images\logo.jpg">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Main CSS-->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <!--google Fonts-->
@@ -34,17 +36,74 @@
             </button>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#nav-about"><b><em>About</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#history"><b><em>History</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#stories"><b><em>Stories</em></b></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#nav-about"><b><em>About</em></b> -->
+                        <!-- <div class="About"> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="#nav-about"><b><em>About</em></b> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                              About
+                            </a>
+                            <ul class="dropdown-menu bg-green" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#history">History</a></li>
+                              <li><hr class="dropdown-divider  bg-success"></li>
+
+                              <li><a class="dropdown-item " href="#nav-about">Mission</a></li>
+                              <li><hr class="dropdown-divider bg-success"></li>
+                              <li><a class="dropdown-item " href="#vision">Vision</a></li>
+                            </ul>
+                          </li>
+
+                            
+                    <!-- <li class="nav-item"><a class="nav-link" href="#history"><b><em>History</em></b></a></li> -->
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          What We Do
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#project-name">Project Name</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#activities">Activities</a></li>
+                        </ul>
+                      </li>
+                    <!--  -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="#stories"><b><em>Stories</em></b></a></li> -->
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Stories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#project-name">Success Stories</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#activities">Appeal Stories of Needy</a></li>
+                        </ul>
+                      </li>
+
+                    <!--  -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#gallery-section"><b><em>Gallery</em></b></a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="#team"><b><em>Team</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#donation"><b><em>Donation</em></b></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#team"><b><em>Team</em></b></a></li> -->
+                     <!--  -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                         Join Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#project-name">As a Volunteer</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#activities">As a Internship and Partnership</a></li>
+                        </ul>
+                      </li>
+
+                    <!--  -->
+
+                    <li class="nav-item"><a class="nav-link" href="donate.html"><b><em>Donate Now</em></b></a></li>
 
                 </ul>
             </div>
-        </div>
+        <!-- </div> -->
     </nav>
+   
 
 
     <!-- End carousel-->
@@ -133,10 +192,10 @@
     <!--History start-->
     <section class="ftco-section mt-5 mb-7" id="history">
         <!-- <section class="mt-5 " > -->
-        <div class="container class">
+        <div class="container class ">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-12 text-center heading-section">
-                    <h2 class="mb-3 text">Our History</h2>
+                    <h2 class="mb-3 mt-5"> History</h2>
                     <span class="text-success"><b><i>Nayi Zindagi Foundation</i></b></span>
                     <hr class="w-25 mx-auto pt-5">
                 </div>
@@ -185,8 +244,8 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-md-12 text-center heading-section">
 
-                    <h2 class="mb-3 text">Our Mission | Vision & Plans</h2>
-                    <span class="text-success"><b>About Us</b></span>
+                    <h2 class="mb-3 text"> Mission | Vision & Plans</h2>
+                    <span class="text-success"><b>About </b></span>
                     <hr class="w-25 mx-auto pt-5">
                 </div>
             </div>
@@ -201,16 +260,16 @@
                             <a class="nav-link py-4" data-toggle="tab" href="#history">History</a>
                         </li> -->
                         <li class="nav-item text-left">
-                            <a class="nav-link py-4" data-toggle="tab" href="#ourmission">Our Mission</a>
+                            <a class="nav-link py-4" data-toggle="tab" href="#mission">Our Mission</a>
                         </li>
                         <li class="nav-item text-left">
-                            <a class="nav-link py-4" data-toggle="tab" href="#ourvision">Our Vision</a>
+                            <a class="nav-link py-4" data-toggle="tab" href="#vision">Our Vision</a>
                         </li>
 
 
 
                         <li class="nav-item text-left">
-                            <a class="nav-link py-4" data-toggle="tab" href="#ourplans">Our Plans</a>
+                            <a class="nav-link py-4" data-toggle="tab" href="#plans">Plans</a>
                         </li>
                     </ul>
                 </div>
@@ -218,7 +277,7 @@
                 <div class="col-md-8 ">
                     <div class="tab-content">
                         <div class="tab-pane container p-0 active" id="about">
-                            <div class="img" style="background-image: url(./images/ngo12.jpg);"></div>
+                            <div class="img" style="background-image: url(./Images/ngo12.jpg);"></div>
                             <h3 class="text-center  text"><a href="#">About Us</a></h3>
                             <p class=" text-justify mb-6"><i>Nayi Zindaagi Foundation is a National level
                                     development Organisation NGO.It has Started
@@ -233,9 +292,9 @@
                         <!----->
 
                         <!----->
-                        <div class="tab-pane container p-0" id="ourmission">
-                            <div class="img" style="background-image: url(./images/ngo19.jpg);"></div>
-                            <h3 class="text-center text"><a href="#">Our Mission</a></h3>
+                        <div class="tab-pane container p-0" id="mission">
+                            <div class="img" style="background-image: url(./Images/ngo19.jpg);"></div>
+                            <h3 class="text-center text"><a href="#"> Mission</a></h3>
                             <p class="  text-justify mb-6"><i>Under right to Education, Our aim is to
                                     provide quality based Education to every single
                                     person wheather they are adult or children
@@ -246,9 +305,9 @@
                                 </i></p>
                         </div>
                         <!----->
-                        <div class="tab-pane container p-0" id="ourvision">
-                            <div class="img" style="background-image: url(./images/ngo15.jpg);"></div>
-                            <h3 class="text-center text"><a href="#">Our Vision</a></h3>
+                        <div class="tab-pane container p-0" id="vision">
+                            <div class="img" style="background-image: url(./Images/ngo15.jpg);"></div>
+                            <h3 class="text-center text"><a href="#"> Vision</a></h3>
                             <!--<div class="tab-pane container p-0"id="ourvision">-->
 
                             <p class=" text-justify mb-6"> <i> Our Vision is to provide Basic needs to
@@ -264,11 +323,11 @@
                         <!----->
 
                         <!----->
-                        <div class="tab-pane container p-0" id="ourplans">
-                            <div class="img" style="background-image: url(./images/ngo10.jpeg);"></div>
+                        <div class="tab-pane container p-0" id="plans">
+                            <div class="img" style="background-image: url(./Images/ngo10.jpeg);"></div>
                             <h3 class="text-center text"><a href="#">Our Plans</a></h3>
 
-                            <p class=" text-justify mb-6"> <i> Our Vision is to provide Basic needs to
+                            <p class=" text-justify mb-6"> <i> Our Plans is to provide Basic needs to
                                     poor, needy and helpless people by providing
                                     basic needs like -Food, Clothes, House
                                     ,Education, Health ,employment and Safety thus we can transform their old life to
@@ -360,70 +419,8 @@
     <!--- End of Stories Section-->
 
 
-    <!-- <section class="ftco-section" id="gallery-section">
-
-        <div class="container ">
-            <h1 class="text-center   mb-2 text">Gallery</h1>
-            <p class="text-center text-success"><b>Nayi Zindagi Foundation</b></p>
-            <hr class="w-25 mx-auto pt-5">
-            <div class="row">
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic1.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic2.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic3.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic4.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic5.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic6.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/ng51.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/pic8.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/ng21.jpeg" class="img-fluid">
-                </div>
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/ng11.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/ng41.jpeg" class="img-fluid">
-                </div>
-
-                <div class="col-lg-4 col-md-2 col-12 mb-4">
-                    <img src="./images/ng31.jpeg" class="img-fluid">
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section> -->
-
-    <!--end gallery-->
     <!---Projects Section-->
-    <section class="ftco-section">
+    <section class="ftco-section" id="project-name">
         <div class=" container mb-4 ">
             <h3 class="text-center  pt-5">Our Projects</h3>
             <p class="text-success text-center"><b>Nayi Zindaagi Foundation</b></p>
@@ -435,7 +432,7 @@
                 <!--single Project 1-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic1.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic1.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -448,7 +445,7 @@
                 <!--single Project 2-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic2.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic2.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -460,7 +457,7 @@
                 <!--single Project 3-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic3.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic3.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -472,7 +469,7 @@
                 <!--single Project 4-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic4.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic4.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -485,7 +482,7 @@
                 <!--single Project 4-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic5.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic5.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -498,7 +495,7 @@
                 <!--single Project 5-->
                 <div class="col-10 col-md-6 col-lg-4 col-12">
                     <div class="project-container p-4 outline">
-                        <img src="./images/pic6.jpeg" class="img-fluid grow" alt="">
+                        <img src="./Images/pic6.jpeg" class="img-fluid grow" alt="">
                         <a herf="#" class="donation text-capitalize">Donate Now</a>
                     </div>
                     <h4 class="text-capitalize text-center my-2"></h4>
@@ -522,7 +519,7 @@
     <!--  -->
     <!-- new finished project -->
 
-    <section class="ftco-section" id="services-section">
+    <section class="ftco-section" id="activities">
         <div class=" container mb-4 ">
             <h3 class="text-center  pt-5">Finished-project</h3>
             <p class="text-success text-center"><b>Nayi Zindaagi Foundation</b></p>
@@ -625,7 +622,7 @@
                         </div>
                         <div class="team-info">
                             <h4>Khadija Khatoon</h4>
-<!--                             <span>Specification</span> -->
+                            <span>Specification</span>
                             <div class="social">
                                 <a href="">
                                     <i class="fab fa-twitter"></i>
@@ -644,7 +641,7 @@
                     </div>
                 </div>
                 <!---->
-<!--                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="team-1">
                         <div class="pic">
                             <img src="./images/ngo3.jpg" class="img-fluid" alt="">
@@ -668,9 +665,9 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!---->
-<!--                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="team-1">
                         <div class="pic">
                             <img src="./images/ngo3.jpg" class="img-fluid" alt="">
@@ -694,9 +691,9 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!---->
-<!--                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="team-1">
                         <div class="pic">
                             <img src="./images/ngo3.jpg" class="img-fluid" alt="">
@@ -720,7 +717,7 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!---->
             </div>
         </div>
@@ -729,98 +726,9 @@
    
 
     <!---Donation Section-->
-    <section class="mt-5">
-        <div class="container " id="donation">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 col-md-6">
-                    <div class="text-center mb-55 ">
-                        <h3 class="text">Make a Donation</h3>
-                        <p class="text-center text-success"><b><i> Nayi Zindaagi Foundation</i></b></p>
-                        <hr class="w-25 mx-auto pt-5">
-                        <div class="donate justify-content-center">
-                        <p class="mb-5"><b>Google Pay -- 9643050472</b> <br><b>Upi-Id -- nayizindaagi@okaxis</b><br></p>
-                        
-                        <!-- <p ><b>Google Pay -- 9643050472</b></p> -->
-                        
-                        <!-- <br><b>Upi Id - nayi@okaxis</b></div> -->
-                        
-                        <!-- <p><b>Upi Id - nayi@okaxis</b></p> -->
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <!---->
-            <!-- <div class="row justify-content-center ">
-                <div class="col-lg-6">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!--  -->
-            <!-- <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <form class="donation-form">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="amount">
-                                    <div class="input-field">
-                                        <div class="input-group"> -->
-                                            <!-- <div class="input-group-prepend">
-                                                <span class="input-group-text">$</span>
-                                            </div> -->
-<!-- 
-                                            <input type="text" class="form-control" placeholder="Google Pay/Upi Id"
-                                                aria-label="Username">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!----->
-                            <!-- <div class="col-md-6">
-                                <div class="amount">
-                                    <div class="need d-flex align-items-center"> -->
-                                        <!-- justify-content-between"> -->
-                                        <!-- <div class="select">
-                                            <h5 class="text-center">9999999999/nayi@okicici</h5>
-                                        </div> -->
-                                        <!-- <div class="funds">
-                                            <input type="radio" name="radio-group">
-                                            <label for="fund-1">10</label>
-                                        </div>
-                                        <div class="funds">
-                                            <input type="radio" name="radio-group">
-                                            <label for="fund-2">50</label>
-                                        </div>
-                                        <div class="funds">
-                                            <input type="radio" name="radio-group">
-                                            <label for="Other">Other</label>
-                                        </div> -->
-
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!--  -->
-            
-            <!--  -->
-            <div class="row mb-3">
-                <div class="col-12">
-                    <div class="donation-btn text-center">
-                        <a href="" class="btn btn-don">Donate Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+    
     <!---End of Donation section Section-->
+
     <!-- Start footer section -->
     <footer class="footer mt-5">
         <div class="footer-top">
