@@ -16,3 +16,15 @@
     color:#053001 ;
     font-weight: bold;
 }
+.navbar-collapse li a{
+    font-family: var(--font1);
+    font-weight: bold;
+}
+.font1{
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 25px;
+}
+/* .history-class{
+    margin-top: 5px;
+} */
