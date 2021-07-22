@@ -7,24 +7,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.nav-bg{
-    background: #053001;
-    /* background: rgba(20,54,1,0.6); */
-}
-.navbar-nav .nav-link{
-    color:#FFA900!important;
-}
-.navbar-toggler{
-    outline:none!important;
-}
 
-#h3{
-	font-family: 'Engagement',lobster;
-	font-size: 25px;
-}
 .bg{
     /* background:linear-gradient(rgba(147, 238, 86, 0.6),white); */
     height: 100%;
+    /* background: rgb(247, 191, 191,0.8); */
 
  } 
  .click-here-btn{
@@ -37,9 +24,9 @@ body{
     transition:0.5s;
     line-height:1;
     margin:10px;
-    background:#0a6801;
+    background:var(--pink-color);
     animation-delay:0.5s;
-    border:2px solid #9ef596;
+    border:2px solid #171817;
 }
 .click-here-btn:hover{
     background: rgb(182, 3, 3);
@@ -57,6 +44,10 @@ body{
     font-size: 10px;
     font-family: var(--font1);
 }
+
+/* .footer-des p{
+    font-size: 15px;
+} */
 
  
 
@@ -144,12 +135,12 @@ body{
     transition:0.5s;
     line-height:1;
     margin:10px;
-    background:#0a6801;
+    background:var(--pink-color);
     animation-delay:0.5s;
-    border:2px solid #9ef596;
+    border:2px solid #111111;
 }
 #hero .hero-btn:hover{
-    background: rgb(182, 3, 3);
+    background: var(--blue-color);
 
 
 
@@ -212,11 +203,11 @@ body{
 /* history */
  
 .class{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    padding: 20px;
-    border-top: 25px;
-    border-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
 }
 
 
@@ -229,18 +220,18 @@ body{
     border-radius:4px;
     color:#000;
     font-weight:bold;
-    border:1px solid rgba(20,54,1,0.6);
+    border:1px solid var(--pink-color);
     font-size:20px;
     line-height: 30px;
 }
 .tabs .nav-pills .nav-item .nav-link span{
-    color:#053001;
+    color:var(--pink-color);
     font-size:30px;
 }
 .tabs .nav-pills .nav-item .nav-link.active{
     color:#fff;
-    background:#053001;
-    border:1px solid #9ef596;
+    background:var(--pink-color);
+    border:1px solid var(--blue-color);
 }
 .tabs .nav-pills .nav-item .nav-link.active span{
     color:#fff;
@@ -265,7 +256,7 @@ body{
 /*========Stories========*/
 .story-box{
     padding:15px;
-    background:#c6f8bc;
+    background:rgb(238, 232, 232);
     margin-bottom:30px;
     position:relative;
 }
@@ -307,7 +298,7 @@ body{
     content:'';
     width:50%;
     height: 100%;
-    background: #053001;
+    background: rgb(247, 191, 191,0.6);
     position: absolute;
     top:0;
     left:0;
@@ -315,7 +306,7 @@ body{
     
 }
 .overlay:hover:before{
-    background:#053001;
+    background:var(--pink-color);
     width:100%;
     border-radius:10px;
 }
@@ -396,14 +387,14 @@ body{
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
-    box-shadow:0 0 10px #7ff767;
+    box-shadow:0 0 10px var(--blue-color);
     transition-duration:0.3s;
     transition-property: box-shadow, transform;
 }
 .grow:hover,
 .grow:focus,
 .grow:active{
-    box-shadow: 0 10px 10px 5px #7ff767;
+    box-shadow: 0 10px 10px 5px var(--blue-color);
     transform: scale(1.1);
 }
 /*====end of Projects Section======*/
@@ -432,8 +423,9 @@ body{
     bottom:-48px;
     left:20px;
     right:20px;
-    background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,152,0.9)35%,
-    rgba(0,59,37,0.8)100%);
+    /* background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,152,0.9)35%,rgba(0,59,37,0.8)100%); */
+ /* background: var(--pink-color); */
+ background: rgb(247, 191, 191,0.6);
     padding: 15px 0;
     border-radius: 4px;
 }
@@ -451,7 +443,7 @@ body{
     display:block;
     width:50px;
     height:1px;
-    background: #1d3501;
+    background: var(--pink-color);
     bottom:0;
     left: calc(50% - 25px);
 }
@@ -466,7 +458,7 @@ body{
 }
 .team .team-1 .social a{
     transition: color 0.3s;
-    color:#01290d;
+    color:var(--pink-color);
 }
 .team .team-1 .social a:hover{
     color:#fff;
@@ -534,7 +526,7 @@ body{
         clip-path:inset(32px);
     }
     .project-item:hover .text1{
-        background-color: rgba(25,61,1,0.6);
+        background-color: var(--pink-color);
     }
 }
 /*==========End of the Finished projects======*/
@@ -639,7 +631,7 @@ section.about p{
     margin-top: 50px;
 }
 .btn-don{
-    background: #053001;
+    background: var(--pink-color);
     color: #fff;
     border-radius: 50px;
 }
@@ -648,77 +640,70 @@ section.about p{
 }
 /*==========End of the Donation Section======*/
 .footer{
-    background:linear-gradient(rgba(162,247,106,0.6),rgba(0,59,37,0.4));
-    padding: 0 0 30px 0;
-    color: #000;
+    background: rgb(9, 1, 41);
+    padding: 0 0 10px 0;
+    color: rgb(5, 3, 43);
     font-size: 15px;
 }
-.footer .footer-top{
-    padding: 60px 0 30px 0;
+.footer {
+    padding: 30px 0 30px 0;
 }
-.footer .footer-top .footer-des{
-    margin-top: -90px;
-    margin-bottom: 15px;
-    background:#053001;
-    color:#fff;
-    border-top: 4px solid #b3f19b;
-    text-align: center;
-    padding:30px 20px;
-}
-.footer .footer-top .footer-des h3{
-    font-size:24px;
+
+/* 
+.footer   h3{
+    font-size:15px;
     margin: 0 0 2px 0;
-    padding: 2px 0 2px 0;
+    padding: 0px 0 20px 0;
     line-height: 1;
     font-weight: bold;
+    color: rgb(126, 125, 123);
+} */
+
+.footer  p{
+    color: rgb(126, 125, 123);
+    font-size: 12px;
 }
-.footer .footer-top .footer-des p{
-    font-size:14px;
-    line-height: 24px;
-    margin-bottom: 0;
-}
-.footer .footer-top .social-links a{
-    font-size: 18px;
+
+.footer  .social-links a{
+    font-size: 15px;
     display: inline-block;
-    background: #b3f19b;
-    color:#053001;
+    background: rgb(156, 154, 154);
+    color:var(--blue-color);
     line-height:1;
-    padding:8px 0;
+    padding:8px ;
     margin-right: 4px;
     border-radius: 50%;
     text-align:center;
-    width: 36px;
-    height:36px;
+    width: 30px;
+    height:30px;
     transition: 0.3s;
+    margin-bottom: 20px;
 }
-.footer .footer-top .social-links a:hover{
+.footer  .social-links a:hover{
     background: rgb(182, 3, 3);
     color: #fff;
     text-decoration: none;
 }
-.footer .footer-top h4{
+.footer  h4{
     font-size:16px;
     font-weight:bold;
-    color: #000;
+    color: rgb(245, 201, 119);
     position:relative;
-    padding-bottom: 12px;
+    padding-bottom: 5px;
 }
-.footer .footer-top .footer-links{
-    margin-bottom: 30px;
+.footer  .footer-links{
+    margin-bottom: 10px;
 }
-.footer .footer-top .footer-links ul{
+.footer  .footer-links ul li a{
     list-style: none;
     padding: 0;
     margin:0;
+    color: rgb(156, 154, 154);
+    text-decoration: none;
 }
-.footer .footer-top .footer-links ul i{
-    padding-right: 2px;
-    color:#000;
-    font-size: 18px;
-    line-height: 1;
-}
-.footer .footer-top .footer-links ul li{
-    padding: 10px 0;
+
+.footer  .footer-links ul li{
+    padding: 1px 0;
     display: flex;
     align-items:center;
 }
@@ -731,22 +716,22 @@ section.about p{
     display: inline-block;
     line-height: 1;
 }
-.footer .footer-top .footer-links ul a:hover{
-    color: #053001;
+.footer .footer-links ul a:hover{
+    color: #ffffff;
 }
-.footer .footer-top .footer-newsletter form{
+.footer  .footer-newsletter form{
     margin-top:30px;
     background: #fff;
-    padding: 6px 10px;
+    padding: 4px 6px;
     position: relative;
     border-radius: 4;
 }
-.footer .footer-top .footer-newsletter form input[type="email"]{
+.footer .footer-newsletter form input[type="email"]{
     border:0;
     padding: 4px;
     width: calc(100% - 110px);
 }
-.footer .footer-top .footer-newsletter form input[type="submit"]{
+.footer  .footer-newsletter form input[type="submit"]{
     position: absolute;
     top:0;
     right:0;
@@ -755,19 +740,24 @@ section.about p{
     background: none;
     font-size:16px;
     padding: 0 20px;
-    background: #053001;
-    color:#FFA900;
+    background: rgb(226, 136, 136);
+    color:#000;
     transition: 0.3s;
     border-radius:4;
 }
-.footer .footer-top .footer-newsletter form input[type="submit"]:hover{
+.footer  .footer-newsletter form input[type="submit"]:hover{
     background: rgb(182, 3, 3);
     color:#ffffff;
 }
 .footer .copyright p{
     /* font-size: 1.3rem; */
     /* text-shadow: 1px 1px black; */
-    border-top: 1px solid #053001;
-    border-bottom: 1px solid #053001;
+    border-top: 1px solid rgb(245, 201, 119);
+    border-bottom: 1px solid rgb(245, 201, 119);
+    color: rgb(160, 159, 158);
 
+}
+.ftr{
+    color: rgb(8, 1, 43);
+    font-size: 12px;
 }

@@ -1,19 +1,45 @@
 /* .bg-green{
     /* background-color: #053001; */
 /* }  */
+
+
+.nav-bg{
+    background: rgba(223, 136, 136);
+    /* background: rgba(20,54,1,0.6); */
+}
+.navbar-nav .nav-link{
+    color:rgb(5, 2, 49)!important;
+}
+.navbar-toggler{
+    outline:none!important;
+}
+
+#h3{
+	/* font-family: 'Engagement',lobster; */
+	font-size: 20px;
+    color: rgb(5, 2, 49);
+    font-family: var(--font1);
+    font-weight: bold;
+}
 .dropdown-menu{
-    background-color: #053001;
+    background: rgb(226, 136, 136);
+
+    /* background-color: #053001; */
 
 
 }
 .dropdown-menu .dropdown-item{
-    color:#FFA900;
+    /* color:#FFA900; */
+    color: rgb(5, 2, 49);
     
 }
 
 .dropdown-menu .dropdown-item:hover{
-    background-color:#FFA900 ;
-    color:#053001 ;
+    /* background-color:#FFA900 ; */
+    /* color:black ; */
+    color: rgb(250, 209, 148);
+    background-color: rgb(5, 2, 49);
+
     font-weight: bold;
 }
 .navbar-collapse li a{
@@ -28,3 +54,6 @@
 /* .history-class{
     margin-top: 5px;
 } */
+.grey{
+    color: rgb(143, 139, 139);
+}
