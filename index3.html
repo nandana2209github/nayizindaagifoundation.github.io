@@ -12,6 +12,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Main CSS-->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+
+
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <!--google Fonts-->
@@ -21,30 +24,79 @@
 </head>
 
 <body>
+
+   
     <!---Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light nav-bg fixed-top py-2" id="mainNav">
         <div class="container">
-            <a class="navbar-brand text-warning " id="h3" href="#"><b><em>Nayi Zindaagi Foundation</em></b></a>
+            <a class="navbar-brand  " id="h3" href="index.html"><b>Nayi Zindaagi Foundation</b></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon bg-warning"></span>
             </button>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <!-- <li class="nav-item"><a class="nav-link" href="/index.html"><b><em><button class="bg-warning text-dark"><b><i>Go to Homepage</i></b></button></em></b></a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="/index.html"><b><em>History</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html"><b><em>Stories</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html"><b><em>Gallery</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html"><b><em>Team</em></b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html"><b><em>Donation</em></b></a></li>
+
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                              About
+                            </a>
+                            <ul class="dropdown-menu bg-green" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="index.html">History</a></li>
+                              <li><hr class="dropdown-divider  bg-success"></li>
+
+                              <li><a class="dropdown-item " href="index.html">Mission</a></li>
+                              <li><hr class="dropdown-divider bg-success"></li>
+                              <li><a class="dropdown-item " href="index.html">Vision</a></li>
+                            </ul>
+                          </li>
+
+                            
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          What We Do
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="index.html">Project Name</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="index.html">Activities</a></li>
+                        </ul>
+                      </li>
+                    <!--  -->
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Stories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="index.html">Success Stories</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="index.html">Appeal Stories of Needy</a></li>
+                        </ul>
+                      </li>
+
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                         Join Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://forms.gle/tL4TKHTnfA4iRkAHA">As a Volunteer</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://forms.gle/HpCZZDwMYQMEuGQJ9">As a Internship and Partnership</a></li>
+                          </ul>
+                        </li>
+  
+                    <li class="nav-item"><a class="nav-link" href="donate.html"><b><em>Donate Now</em></b></a></li>
 
                 </ul>
             </div>
-        </div>
     </nav>
+    <!-- nav end -->
     <!--  start of ramdaan  project gallery -->
 
-    !--  -->
+    
     <section class="ftco-section" id="Ramdan-Project-Gallery">
 
         <div class="container  ">
@@ -126,99 +178,100 @@
 
 
      <!-- Start footer section -->
+    
      <footer class="footer mt-5">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-des">
-                            <h3 class="text-warning">Nayi Zindaagi Foundation</h3>
-                            <p class="pb-3 text-warning">
-                                <em>Nayi Zindaagi Foundation is a National level development Organisation NGO.
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                        <h4 class="mb-0 text-warning">Nayi Zindaagi Foundation</h4>
+                        <p class="ftr">
+                            Nayi Zindaagi Foundation is a National level development Organisation NGO.
 
-                                </em>
-                            </p>
-                            <p class="text-warning">Delhi <br>
-                                SP 12345, India<br><br><strong>
-                                    Phone;
-                                </strong>
-                                +55 61 1234 5678 9<br>
-                                <strong>
-                                    Email:
-                                </strong>
-                                nayizindagi@.com<br>
+                            
+                        </p>
+                        <p class="ftr"> New Delhi <br>
+                            Head office - A-762, camp No -2, Nangloi<br><strong>
+                                Phone;
+                            </strong>
+                           +91-9643050472<br>
+                            <strong>
+                                Email:
+                            </strong>
+                            nayizindaagifoundation@gmail.com<br>
 
-                            </p>
-                            <div class="social-links mt-3">
-                                <a href="https://twitter.com/ZindaagiNayi?s=08"><i class="fab fa-twitter">
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="https://twitter.com/ZindaagiNayi?s=08"><i class="fab fa-twitter">
 
-                                    </i></a>
-                                <a href=""><i class="fab fa-facebook">
+                                </i></a>
+                            <a href=""><i class="fab fa-facebook">
 
-                                    </i></a>
-                                <a href="http://instagram.com/nayizindagifoundation"><i class="fab fa-instagram">
+                                </i></a>
+                            <a href="http://instagram.com/nayizindagifoundation"><i class="fab fa-instagram">
 
-                                    </i></a>
-                                <a href="https://youtube.com/channel/UCGK7LM3SkJ0lrO9XJCm7hJg"><i class="fab fa-youtube">
+                                </i></a>
+                            <a href="https://youtube.com/channel/UCGK7LM3SkJ0lrO9XJCm7hJg"><i class="fab fa-youtube">
 
-                                    </i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>About Us</h4>
-                        <p class="text-success"><i>Nayi Zindaagi Foundation is a National level development Organisation
-                                NGO.It has Started to
-                                working 2017 in
-                                EDUCATION field to give
-                                free tution to poor children.</i></p>
-
-
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Links</h4>
-                        <ul>
-                            <li>
-                                <i class="fas fa-chevron-right"></i>
-                                <a class="text-success" href="#about"><em>About</em></a>
-                            </li>
-                            <li>
-                                <i class="fas fa-chevron-right"></i>
-                                <a class="text-success" href="#gallery-section"><em>Gallery</em></a>
-
-                            </li>
-                            <li>
-                                <i class="fas fa-chevron-right"></i>
-                                <a class="text-success" href="#team"><em>Team</em></a>
-
-                            </li>
-                            <li>
-                                <i class="fas fa-chevron-right "></i>
-                                <a class="text-success" href="#donation"><em>Donation</em></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                        <h4>Our News Letters</h4>
-                        <p class="text-success"><i>Nayi Zindaagi Foundation</i></p>
-                        <form>
-                            <input type="email" name="email">
-                            <input type="submit" value="Subscribe">
-                        </form>
+                                </i></a>
                     </div>
                 </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4 class="text-warning ftr">About Us</h4>
+                    <p class="grey ftr">Nayi Zindaagi Foundation is a National level development Organisation
+                            NGO.It has Started to
+                            working 2017 in
+                            EDUCATION field to give
+                            free tution to poor children.
+                            we provide help to poor people in every possible way.</p>
+
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4 class="text-warning">Links</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <a class="" href="#about-nav">About</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <a class="" href="#gallery-section">Stories</a>
+
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                            <a class="" href="#history">History</a>
+
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right "></i>
+                            <a class="" href="donate.html">Donate now</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                     <h4 class="text-warning">Our News Letters</h4>
+                    <p class="grey">Nayi Zindaagi Foundation</p>
+                    <form>
+                        <input type="email" name="email">
+                        <input type="submit" value="Subscribe">
+                    </form> 
+                    
             </div>
         </div>
-        <div class="container-fluid">
-            <p class="text-center py-2 mb-0 "><em>Nayi Zindaagi Foundation Copyright &copy; 2021 | All Rights Reserved.
-                    Developed
-                    by: <b> Nandana Singh. </b></em></p>
-        </div>
+    </div>
+    <div class="container-fluid copyright">
+        <p class="text-center py-2 mb-0 "><em>Nayi Zindaagi Foundation Copyright &copy; 2021 | All Rights Reserved.
+                Developed
+                by:<a href="http://nandanasingh.in/"> <b> Nandana Singh. </b></em></a></p>
+    </div>
 
-    </footer>
-    <!-- end footer section -->
+</footer>
+<!-- end footer section -->
+
 
 
 
